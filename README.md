@@ -5,7 +5,7 @@ A virus/stealer made in py.
 
 
 # **How to use:**
-# Edit line 70 :)
+**Edit line 70 :)**
 
 
 # **How to compile:**
