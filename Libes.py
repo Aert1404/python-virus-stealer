@@ -683,4 +683,12 @@ payload()
 thread()
 mainfunc()
 #----------------------------------------------------------------
-#Made by Marci [https://github.com/KAMKAZEMARCI]
+
+
+
+#----------------------------------------------------------------CREDITS
+#Made by Me and PatexTheHacker [https://github.com/KAMKAZEMARCI] [https://github.com/PatexTheHacker]
+#Tested by Me and Patex on a real pc/vm.
+#Payload made by Patex
+#Anti vm and main stuff made by me
+#----------------------------------------------------------------
