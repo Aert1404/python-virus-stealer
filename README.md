@@ -9,7 +9,7 @@ A virus/stealer made in py.
 
 
 # **How to compile:**
-# Base64 encode the source code and build it with pyinstaller or use Nuitka[CPython].
+**Base64 encode the source code and build it with pyinstaller or use Nuitka[CPython].**
 
 
 # **Detection:**
